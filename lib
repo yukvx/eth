@@ -1,5 +1,77 @@
 
 
+do --// Font
+    if not IsStudio then
+        do --// Deleting files
+            if isfile and isfile("proggy_font.font") then 
+                delfile("proggy_font.font")
+            end;
+
+            if isfile and isfile("proggy-bold-font.ttf") then 
+                delfile("proggy-bold-font.ttf");
+            end;
+
+            if isfile and isfile("proggy_bold_font.font") then 
+                delfile("proggy_bold_font.font")
+            end;
+
+            if isfile and isfile("proggy-font.ttf") then 
+                delfile("proggy-font.ttf");
+            end;
+
+            if isfile and isfile("monaco_font.font") then 
+                delfile("monaco_font.font")
+            end;
+
+            if isfile and isfile("monaco-font.ttf") then 
+                delfile("monaco-font.ttf");
+            end;
+
+            if isfile and isfile("verdana_font.font") then 
+                delfile("verdana_font.font")
+            end;
+
+            if isfile and isfile("verdana-font.ttf") then 
+                delfile("verdana-font.ttf");
+            end;
+
+            if isfile and isfile("courier_font.font") then 
+                delfile("courier_font.font")
+            end;
+
+            if isfile and isfile("courier-font.ttf") then 
+                delfile("courier-font.ttf");
+            end;
+
+            if isfile and isfile("terminus_font.font") then 
+                delfile("terminus_font.font")
+            end;
+
+            if isfile and isfile("terminus-font.ttf") then 
+                delfile("terminus-font.ttf");
+            end;
+
+            if isfile and isfile("small_font.font") then 
+                delfile("small_font.font");
+            end;
+
+            
+            if isfile and isfile("smallest-pixel.ttf") then 
+                delfile("smallest-pixel.ttf")
+            end;
+
+            if isfile and isfile("pixel_font.font") then 
+                delfile("pixel_font.font")
+            end;
+
+            if isfile and isfile("pixel-font.ttf") then 
+                delfile("pixel-font.ttf");
+            end;
+
+        end;                      
+    end
+end
+
         do --// Font Register/Get
 
             do --// Functions
